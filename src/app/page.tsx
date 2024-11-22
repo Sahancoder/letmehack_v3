@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Register() {
   return (
-    <div className="min-h-screen bg-green-900 flex flex-col items-center">
+    <div className="min-h-screen bg-emerald-950 flex flex-col items-center">
       {/* Navbar */}
       <nav className="w-full bg-black text-white py-4 flex justify-between px-8">
         <div className="text-2xl font-bold">Let Me Hack</div>
@@ -20,7 +20,7 @@ export default function Register() {
         <form className="space-y-4">
           <div>
             <label className="block mb-1">Team Name</label>
-            <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-green-700 text-white focus:outline-none" />
+            <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-green-900 text-white focus:outline-none" />
           </div>
           <div>
             <label className="block mb-1">University</label>
