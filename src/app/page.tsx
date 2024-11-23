@@ -19,7 +19,7 @@ export default function Register() {
       </nav>
 
       {/* Form */}
-      <div className="bg-black w-full max-w-lg p-8 mt-8 rounded-lg shadow-lg text-white">
+      <div className="bg-black w-full max-w-lg p-8 m-8 rounded-lg shadow-lg text-white">
         <h1 className="text-3xl font-bold mb-6 text-center">Register Here</h1>
         <form className="space-y-4">
           <div>
