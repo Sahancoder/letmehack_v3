@@ -15,32 +15,32 @@ export default function Register() {
       </nav>
 
       {/* Form */}
-      <div className="bg-green-800 w-full max-w-lg p-8 mt-8 rounded-lg shadow-lg text-white">
+      <div className="bg-black w-full max-w-lg p-8 mt-8 rounded-lg shadow-lg text-white">
         <h1 className="text-3xl font-bold mb-6 text-center">Register Here</h1>
         <form className="space-y-4">
           <div>
             <label className="block mb-1">Team Name</label>
-            <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-green-900 text-white focus:outline-none" />
+            <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-neutral-700 text-white focus:outline-none" />
           </div>
           <div>
             <label className="block mb-1">University</label>
-            <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-green-700 text-white focus:outline-none" />
+            <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-neutral-700 text-white focus:outline-none" />
           </div>
           <div>
             <label className="block mb-1">Leader's Name</label>
-            <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-green-700 text-white focus:outline-none" />
+            <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-neutral-700 text-white focus:outline-none" />
           </div>
           <div>
             <label className="block mb-1">Email</label>
-            <input type="email" placeholder="example@gmail.com" className="w-full p-2 rounded bg-green-700 text-white focus:outline-none" />
+            <input type="email" placeholder="example@gmail.com" className="w-full p-2 rounded bg-neutral-700 text-white focus:outline-none" />
           </div>
           <div>
             <label className="block mb-1">NIC</label>
-            <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-green-700 text-white focus:outline-none" />
+            <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-neutral-700 text-white focus:outline-none" />
           </div>
           <div>
             <label className="block mb-1">WhatsApp Contact Number</label>
-            <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-green-700 text-white focus:outline-none" />
+            <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-neutral-700 text-white focus:outline-none" />
           </div>
           <div>
             <label className="block mb-1">Academic Year</label>
@@ -63,7 +63,7 @@ export default function Register() {
               </div>
             </div>
           </div>
-          <button type="submit" className="w-full bg-green-600 hover:bg-green-500 p-2 rounded mt-4">Next</button>
+          <button type="submit" className="w-full bg-neutral-600 hover:bg-neutral-800 p-2 rounded mt-4">Next</button>
         </form>
       </div>
 
