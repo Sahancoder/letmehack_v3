@@ -11,6 +11,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        registerbg: '#01260D',
+        registerfield: '#303030',
+        registerfieldfill: '#081A00',
       },
     },
   },
