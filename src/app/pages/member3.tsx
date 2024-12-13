@@ -1,16 +1,12 @@
 import React from 'react';
-import Image from 'next/image';
-import logo from '../../public/logo.png';
 
 export default function Register() {
   return (
     <div className="min-h-screen bg-emerald-950 flex flex-col items-center">
       {/* Navbar */}
-      <nav className="w-full bg-black text-white flex px-8 justify-between">
-      <div className="h-full">
-        <Image src={logo} alt="Let Me Hack" width={90} height={50} priority/>
-      </div>
-        <ul className="flex space-x-6 items-center">
+      <nav className="w-full bg-black text-white py-4 flex justify-between px-8">
+        <div className="text-2xl font-bold">Let Me Hack</div>
+        <ul className="flex space-x-6">
           <li><a href="#" className="hover:text-gray-400">Home</a></li>
           <li><a href="#" className="hover:text-gray-400">Gallery</a></li>
           <li><a href="#" className="hover:text-gray-400">Contact</a></li>
@@ -19,11 +15,11 @@ export default function Register() {
       </nav>
 
       {/* Form */}
-      <div className="bg-black w-full max-w-lg p-8 m-8 rounded-lg shadow-lg text-white">
+      <div className="bg-black w-full max-w-lg p-8 mt-8 rounded-lg shadow-lg text-white">
         <h1 className="text-3xl font-bold mb-6 text-center">Register Here</h1>
         <form className="space-y-4">
           <div>
-            <label className="block mb-1">Member1 Name</label>
+            <label className="block mb-1">Member2 Name</label>
             <input type="text" placeholder="Your answer" className="w-full p-2 rounded bg-neutral-700 text-white focus:outline-none" />
           </div>
           <div>
@@ -76,7 +72,7 @@ export default function Register() {
             </button>
             <button
               type="submit"
-              className="bg-green-600 hover:bg-neutral-800 text-white py-2 px-4 rounded"
+              className="bg-neutral-600 hover:bg-neutral-800 text-white py-2 px-4 rounded"
             >
               Next
             </button>
